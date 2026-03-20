@@ -1,0 +1,223 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Ivander} \\ \vspace{1pt}
+    \small 0813-7775-8897 $|$ \href{mailto:ivanderseah08@gmail.com}{\underline{ivanderseah08@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ivanderivander/}{\underline{linkedin.com/in/ivanderivander}} $|$
+    \href{https://github.com/ivander08}{\underline{github.com/ivander08}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universitas Tarumanagara}{Aug 2022 -- Present}
+      {Bachelor of Computer Science (GPA = 3.82/4.00)}{West Jakarta}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Developer Intern}{Dec 2025 -- Present}
+      {Mitra Solusi Telematika}{South Jakarta}
+      \resumeItemListStart
+        \resumeItem{Developed a SharePoint file-management service using Microsoft Graph API (Node.js/TypeScript), supporting programmatic CRUD, streaming downloads, and safe move/rename/copy operations across nested folder hierarchies.}
+        \resumeItem{Engineered a Node.js ETL sync pipeline handling 80,000+ records between Azure SQL and Aurora PostgreSQL, using per-record transactional upserts, field-level change detection, automated HS-code history tracking, and idempotent downstream queue insertion.}
+        \resumeItem{Implemented authentication and authorization using Microsoft Entra ID (OAuth2) and JWT validation, designing a custom RBAC system to enforce granular, role-based data access.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Teaching Assistant (Programming \& Game Development)}{Aug 2025 -- Present}
+      {Universitas Tarumanagara \& Polimedia}{West \& South Jakarta}
+      \resumeItemListStart
+        \resumeItem{Assisted lectures and led lab sessions for Virtual Reality, Fundamental Programming, Mobile Programming, and Interactive Game Design courses across two institutions.}
+        \resumeItem{Mentored 200+ students across multiple semesters in Unity (C\#)–based mobile and game development, covering gameplay systems, UI, deployment workflows, and applied production using Blender and Adobe Creative tools.}
+        \resumeItem{Served as assistant editor for multiple volumes of JIKSI and supported academic competitions as a technical assistant and judge.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Developer Intern}{Jan 2025 -- Jun 2025}
+      {BDO in Indonesia}{West Jakarta}
+      \resumeItemListStart
+        \resumeItem{Engineered a high-throughput, low-latency backend by migrating 37 REST APIs from Node.js to Go, achieving a 70× latency reduction (3500ms → 50ms) with Redis caching.}
+        \resumeItem{Designed and deployed containerized monoliths on an Ubuntu VPS using Docker, Traefik reverse proxy, and GitHub Actions to automate build and deployment workflows.}
+        \resumeItem{Developed a 2D Unity-based ITGC training simulator simulating 14+ real-world audit risk scenarios.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+        {\textbf{\href{https://github.com/ivander08/Staggerpoint}{Physics-Based Active Ragdoll Prototype}} $|$ 
+         \emph{Unity, C\#, ConfigurableJoint, Physics, IK}}{2025}
+        \resumeItemListStart
+          \resumeItem{Built a physics-based active ragdoll prototype using torque-driven ConfigurableJoints for stable, natural motion without animation blending.}
+          \resumeItem{Implemented custom FABRIK inverse kinematics and real-time balance correction using center-of-mass and foot placement heuristics.}
+        \resumeItemListEnd
+      \resumeProjectHeading
+        {\textbf{\href{https://github.com/ivander08/distrib-kv-rust}{Distributed Key-Value Store}} $|$ 
+         \emph{Rust, Tokio, Raft}}{2025}
+        \resumeItemListStart
+          \resumeItem{Implemented the Raft consensus algorithm from scratch to maintain consistency and leader election under network partitions.}
+          \resumeItem{Built a fault-tolerant async key-value store using Tokio with log replication and snapshotting for storage compaction.}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+
+
+%
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Go, Java, Rust, C++, C\#, PHP, Python} \\
+     \textbf{Frameworks \& Tools}{: React, TailwindCSS, Unity, Spring Boot, Node.js, Laravel, .NET} \\
+     \textbf{Databases}{: PostgreSQL, MySQL, SQL Server, MongoDB} \\
+     \textbf{Cloud \& DevOps}{: AWS, Azure, Docker, VPS (Linux), GitHub Actions, Traefik, Prometheus, Grafana}
+    }}
+ \end{itemize}
+
+%-----------AWARDS & CERTIFICATIONS-----------
+\section{Awards \& Certifications}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{COMPFEST 2024 — Best Artistic Award}}{Oct 2024}
+  \resumeProjectHeading
+    {\textbf{\href{https://www.credly.com/badges/1d544635-9522-4410-8380-66f1141323d8/print}{Unity Certified Associate: Game Developer}}}{Dec 2025 -- Dec 2028}
+  \resumeProjectHeading
+  {\textbf{\href{https://drive.google.com/file/d/10yucn9cttYNajTImQuNTi8wj8wAdQT6b/view}{Huawei HCIA-AI Certification}}}{Jun 2023 -- Jun 2026}
+\resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
