@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.8)  9 FEB 2026 10:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.8)  22 MAR 2026 23:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -312,13 +312,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{C:/Users/Ivander/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (main.aux)
+{C:/Users/Ivander/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -331,17 +325,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BAC9F5A4E64EF9F664B24427FD5E667E;557.
  ) 
 Here is how much of TeX's memory you used:
- 10886 strings out of 467866
- 173405 string characters out of 5417358
+ 10885 strings out of 467866
+ 173399 string characters out of 5417358
  625910 words of memory out of 5000000
  39647 multiletter control sequences out of 15000+600000
  633648 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,375b,588s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,378b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Ivander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (2 pages, 122581 bytes).
+Output written on main.pdf (1 page, 121379 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
