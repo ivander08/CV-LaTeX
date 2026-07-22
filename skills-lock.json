@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "resume-ats-optimizer": {
+      "source": "paramchoudhary/resumeskills",
+      "sourceType": "github",
+      "skillPath": "skills/resume-ats-optimizer/SKILL.md",
+      "computedHash": "150c30874a940b934f1c7155ba5cdc6021e5cf4f6be5a25b2b7332f94b9c002c"
+    },
+    "resume-bullet-writer": {
+      "source": "paramchoudhary/resumeskills",
+      "sourceType": "github",
+      "skillPath": "skills/resume-bullet-writer/SKILL.md",
+      "computedHash": "11ebdcc68f04e474db16c52b134b21c0f71f065913ffcbb8176004311cd412f7"
+    },
+    "resume-quantifier": {
+      "source": "paramchoudhary/resumeskills",
+      "sourceType": "github",
+      "skillPath": "skills/resume-quantifier/SKILL.md",
+      "computedHash": "90cd182ae8325864a264840a564c6f6b7429fd71e90c1da88fc1d9c03f7b8be5"
+    }
+  }
+}

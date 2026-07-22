@@ -113,7 +113,7 @@
 
 \begin{center}
     \textbf{\Huge \scshape Ivander} \\ \vspace{1pt}
-    \small 0813-7775-8897 $|$ \href{mailto:ivanderseah08@gmail.com}{\underline{ivanderseah08@gmail.com}} $|$ 
+    \small \href{mailto:ivanderseah08@gmail.com}{\underline{ivanderseah08@gmail.com}} $|$
     \href{https://www.linkedin.com/in/ivanderivander/}{\underline{linkedin.com/in/ivanderivander}} $|$
     \href{https://github.com/ivander08}{\underline{github.com/ivander08}}
 \end{center}
@@ -123,8 +123,12 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Universitas Tarumanagara}{Aug 2022 -- Present}
-      {Bachelor of Computer Science (GPA = 3.82/4.00)}{Jakarta}
+      {Universitas Tarumanagara}{Aug 2022 -- Jul 2026}
+      {Bachelor of Computer Science (3.99/4.00)}{Jakarta}
+      \resumeItemListStart
+        \resumeItem{Mentored 200+ students as Teaching Assistant across 5 courses (VR, Programming, Mobile, Game Design) while serving as journal editor for SINTA 5-indexed journal (JIKSI), managing submissions, citations, and formatting.}
+        \resumeItem{Awarded Best Thesis (Skripsi Terbaik Pertama) for a Game Development thesis, outcompeting AI, Data Science, and other CompSci research tracks.}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
@@ -133,12 +137,12 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Software Developer Intern}{Dec 2025 -- Present}
+      {Software Engineer}{Dec 2025 -- Present}
       {Mitra Solusi Telematika (TMT Group)}{Jakarta}
       \resumeItemListStart
-        \resumeItem{Built a SharePoint integration service using Node.js with custom web frontend, enabling users to perform full CRUD operations on synced data without direct SharePoint access; designed custom RBAC system to eliminate manual Active Directory role management.}
-        \resumeItem{Engineered ETL sync pipeline synchronizing databases via automated cronjobs, reducing data-entry errors and ensuring consistency across 80,000+ records for AI-based item classification workflows.}
-        \resumeItem{Developed ASP.NET Core backend with SQL Server database to sync mobile servicemen field data to supervisor web app, supporting approvals, revisions, and real-time GPS/activity timeline visualization.}
+        \resumeItem{Architected Node.js service syncing PostgreSQL database with SharePoint files via MS Graph API and MSAL app-only auth, eliminating frontend token exposure; integrated with RPA/Power Automate workflows and configured Entra ID conditional access policies securing 200+ users.}
+        \resumeItem{Optimized .NET dashboard performance by batching 40+ sequential DB queries into 8 round-trips, reducing page load from $\sim$60s to $\sim$4s (15$\times$ faster, 80\% fewer DB calls).}
+        \resumeItem{Resolved legacy 64GB table bloat caused by SHE duplicate records through backend refactoring and thorough SQL Server data cleansing, reducing table size from 64GB to 300MB (99.5\% reduction).}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -152,20 +156,12 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Teaching Assistant}{Aug 2025 -- Present}
-      {Universitas Tarumanagara \& Politeknik Negeri Media Kreatif}{Jakarta}
-      \resumeItemListStart
-        \resumeItem{Taught lectures and labs across VR, Fundamental Programming, Mobile Programming, and Interactive Game Design; mentored 200+ students in Unity C\# mobile and game development with hands-on production using Blender and Adobe Creative Suite.}
-        \resumeItem{Major editor for SINTA 5 technical journal (JIKSI); ensured publication quality standards, redesigned logo/cover/website, and managed editorial roles and workflows.}
-    \resumeItemListEnd
-
-    \resumeSubheading
-      {Software Developer Intern}{Jan 2025 -- Jun 2025}
+      {Software Engineer Intern}{Jan 2025 -- Jun 2025}
       {BDO in Indonesia (BDO Global)}{Jakarta}
       \resumeItemListStart
-        \resumeItem{Migrated 37 REST APIs from Node.js to Go with Redis caching, reducing supervisor data-load latency by 70× (3500ms → 50ms) and cutting infrastructure costs.}
-        \resumeItem{Architected containerized deployment pipeline using Docker, Traefik, and GitHub Actions, automating CI/CD and replacing manual local deployments.}
-        \resumeItem{Built 2D Unity-based training simulator for IT auditors to experience real-world audit scenarios (compliance interviews, risk assessments) before field engagement.}
+        \resumeItem{Migrated 37 REST APIs from Node.js to Go with Redis caching, cutting API latency from 3500ms to 50ms (70$\times$ faster) and reducing infrastructure costs.}
+        \resumeItem{Architected containerized CI/CD pipeline using Docker, Traefik, and GitHub Actions, cutting deployment time from 3+ minutes to under 10 seconds (18$\times$ faster).}
+        \resumeItem{Built 2D Unity training simulator used by 100+ IT auditors to practice real audit scenarios in a risk-free sandbox.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -175,11 +171,11 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-        {\textbf{\href{https://github.com/ivander08/Staggerpoint}{Physics-Based Active Ragdoll Prototype}} $|$ 
-         \emph{Unity, C\#, ConfigurableJoint, Physics, IK}}{2025}
+        {\textbf{\href{https://github.com/ivander08/Staggerpoint}{Physics-Driven Character Controller}} $|$
+         \emph{Unity, C\#, Physics, Inverse Kinematics}}{2025}
         \resumeItemListStart
-          \resumeItem{Built a physics-based active ragdoll prototype using torque-driven ConfigurableJoints for stable, natural motion without animation blending.}
-          \resumeItem{Implemented custom FABRIK inverse kinematics and real-time balance correction using center-of-mass and foot placement heuristics.}
+          \resumeItem{Engineered a physics-driven character controller with realistic full-body balance, reactive motion, and terrain adaptation, with no pre-baked animations required.}
+          \resumeItem{Implemented custom inverse kinematics solver for real-time foot and limb placement, enabling stable traversal across uneven surfaces and dynamic obstacles.}
         \resumeItemListEnd
       \resumeProjectHeading
         {\textbf{\href{https://github.com/ivander08/distrib-kv-rust}{Distributed Key-Value Store}} $|$ 
@@ -199,8 +195,9 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Go, Rust, C\#, TypeScript, Java, Python} \\
-     \textbf{Frameworks \& Platforms}{: ASP.NET Core, React, TailwindCSS, Unity, PostgreSQL, SQL Server, MongoDB, Redis} \\
-     \textbf{Cloud \& DevOps}{: Azure, AWS, Docker, GitHub Actions, Linux}
+     \textbf{Frameworks}{: Node.js, ASP.NET Core, React, Next.js, TailwindCSS, Unity} \\
+     \textbf{Databases}{: PostgreSQL, SQL Server, MongoDB, Redis} \\
+     \textbf{Cloud \& DevOps}{: Azure, AWS, Docker, GitHub Actions, Linux, MS Entra ID}
     }}
  \end{itemize}
 
@@ -208,11 +205,11 @@
 \section{Awards \& Certifications}
 \resumeSubHeadingListStart
   \resumeProjectHeading
-    {\textbf{COMPFEST 2024 — Best Artistic Award}}{Oct 2024}
+    {\textbf{Best Thesis Award — FTI Universitas Tarumanagara}}{Jul 2026}
   \resumeProjectHeading
-    {\textbf{\href{https://www.credly.com/badges/1d544635-9522-4410-8380-66f1141323d8/print}{Unity Certified Associate: Game Developer}}}{Dec 2025 -- Dec 2028}
+    {\textbf{\href{https://www.credly.com/badges/1d544635-9522-4410-8380-66f1141323d8/print}{Unity Certified Associate: Game Developer}}}{Dec 2025}
   \resumeProjectHeading
-  {\textbf{\href{https://drive.google.com/file/d/10yucn9cttYNajTImQuNTi8wj8wAdQT6b/view}{Huawei HCIA-AI Certification}}}{Jun 2023 -- Jun 2026}
+    {\textbf{COMPFEST 16 — Indie Game Ignite: Best Artistic Award}}{Oct 2024}
 \resumeSubHeadingListEnd
 
 
