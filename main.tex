@@ -69,35 +69,35 @@
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-3pt}\item
+  \vspace{-5pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-6pt}
+    \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-6pt}
+    \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-6pt}
+    \end{tabular*}\vspace{-8pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-8pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -121,13 +121,15 @@
 
 %-----------EDUCATION-----------
 \section{Education}
+\vspace{4pt}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Universitas Tarumanagara}{Aug 2022 -- Jul 2026}
-      {Bachelor of Computer Science (3.99/4.00)}{Jakarta}
+      {Universitas Tarumanagara}{Jakarta}
+      {Bachelor of Computer Science}{Aug 2022 -- Jul 2026}
       \resumeItemListStart
-        \resumeItem{Mentored 200+ students as Teaching Assistant across 5 courses (VR, Programming, Mobile, Game Design) while serving as journal editor for SINTA 5-indexed journal (JIKSI), managing submissions, citations, and formatting.}
-        \resumeItem{Awarded Best Thesis (Skripsi Terbaik Pertama) for a Game Development thesis, outcompeting AI, Data Science, and other CompSci research tracks.}
+        \resumeItem{CGPA: 3.99/4.00}
+        \resumeItem{Best Thesis Award}
+        \resumeItem{Relevant Coursework: Backend Programming, Artificial Intelligence, Computation I/II, Database Systems}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -136,34 +138,35 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
+  \vspace{4pt}
+
     \resumeSubheading
-      {Software Engineer}{Dec 2025 -- Present}
-      {Mitra Solusi Telematika (TMT Group)}{Jakarta}
+      {MST (Mitra Solusi Telematika)}{Jakarta}
+      {Software Engineer \textbar{} \textup{.NET, Node.js, Next.js, Azure, AWS, IIS}}{Dec 2025 -- Present}
       \resumeItemListStart
-        \resumeItem{Architected Node.js service syncing PostgreSQL database with SharePoint files via MS Graph API and MSAL app-only auth, eliminating frontend token exposure; integrated with RPA/Power Automate workflows and configured Entra ID conditional access policies securing 200+ users.}
-        \resumeItem{Optimized .NET dashboard performance by batching 40+ sequential DB queries into 8 round-trips, reducing page load from $\sim$60s to $\sim$4s (15$\times$ faster, 80\% fewer DB calls).}
+        \resumeItem{Architected Node.js service syncing PostgreSQL with SharePoint via MS Graph and MSAL auth; integrated with Power Automate workflows and configured Entra ID conditional access policies securing 200+ users.}
+        \resumeItem{Optimized .NET performance by batching 40+ sequential DB queries into 8 round-trips, reducing page load from $\sim$60s to $\sim$2s (30$\times$ faster, 80\% fewer DB calls).}
         \resumeItem{Resolved legacy 64GB table bloat caused by SHE duplicate records through backend refactoring and thorough SQL Server data cleansing, reducing table size from 64GB to 300MB (99.5\% reduction).}
       \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
+      \vspace{4pt}
 
     \resumeSubheading
-      {Software Engineer Intern}{Jan 2025 -- Jun 2025}
-      {BDO in Indonesia (BDO Global)}{Jakarta}
+      {BDO (Binder Dijker Otte)}{Jakarta}
+      {Software Engineer Intern \textbar{} \textup{Go, Node.js, Next.js, Linux, GitHub Actions, Docker}}{Jan 2025 -- Jun 2025}
       \resumeItemListStart
-        \resumeItem{Migrated 37 REST APIs from Node.js to Go with Redis caching, cutting API latency from 3500ms to 50ms (70$\times$ faster) and reducing infrastructure costs.}
+        \resumeItem{Migrated 30+ APIs from Node.js to Go with Redis, cutting latency from $\sim$3500ms to $\sim$50ms (70$\times$ faster), reducing infrastructure costs.}
         \resumeItem{Architected containerized CI/CD pipeline using Docker, Traefik, and GitHub Actions, cutting deployment time from 3+ minutes to under 10 seconds (18$\times$ faster).}
-        \resumeItem{Built 2D Unity training simulator used by 100+ IT auditors to practice real audit scenarios in a risk-free sandbox.}
+        \resumeItem{Built 2D Unity training simulator to practice real audit scenarios in a risk-free sandbox.}
       \resumeItemListEnd
+      \vspace{4pt}
 
+    \resumeSubheading
+      {Universitas Tarumanagara \& Polimedia}{Jakarta}
+      {Teaching Assistant \textbar{} \textup{Java, C++, C\#, Unity, Blender, Adobe, Peer Review \& Editorial}}{Aug 2025 -- Jul 2026}
+      \resumeItemListStart
+        \resumeItem{Delivered technical instruction across 5 CS courses (Fundamental Programming, Mobile Programming, Interactive Game Design, Virtual Reality, Data Structures) to 200+ students, mentoring in Unity/C\# and software development workflows.}
+        \resumeItem{Evaluated 150+ scientific journal submissions for JIKSI (SINTA 5-indexed journal), auditing code quality, system architecture, and research methodology against publication standards.}
+        \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
@@ -176,13 +179,6 @@
         \resumeItemListStart
           \resumeItem{Engineered a physics-driven character controller with realistic full-body balance, reactive motion, and terrain adaptation, with no pre-baked animations required.}
           \resumeItem{Implemented custom inverse kinematics solver for real-time foot and limb placement, enabling stable traversal across uneven surfaces and dynamic obstacles.}
-        \resumeItemListEnd
-      \resumeProjectHeading
-        {\textbf{\href{https://github.com/ivander08/distrib-kv-rust}{Distributed Key-Value Store}} $|$ 
-         \emph{Rust, Tokio, Raft}}{2025}
-        \resumeItemListStart
-          \resumeItem{Implemented the Raft consensus algorithm from scratch to maintain consistency and leader election under network partitions.}
-          \resumeItem{Built a fault-tolerant async key-value store using Tokio with log replication and snapshotting for storage compaction.}
         \resumeItemListEnd
 \resumeSubHeadingListEnd
 

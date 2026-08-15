@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1784693443.30802 "c:/Users/Ivander/Documents/Projects/LaTeX/CV/main.tex" "main.pdf" "main" 1784693443.95697 0
+["pdflatex"] 1786830616.29888 "c:/Users/Ivander/Documents/Projects/LaTeX/CV/main.tex" "main.pdf" "main" 1786830616.87939 0
   "C:/Users/Ivander/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770549862 80937 91001db6d4ae332437b4b739862cda02 ""
   "C:/Users/Ivander/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1770549811 13334829 0ead09b3eeaa430f71faa5639bf7e06f ""
   "C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -49,6 +49,7 @@
   "C:/Users/Ivander/AppData/Local/Programs/MiKTeX/tex/latex/babel-english/english.ldf" 1623001666 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "C:/Users/Ivander/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1761900684 20144 b966087dda3b194755eb460d32e2ef75 ""
   "C:/Users/Ivander/AppData/Local/Programs/MiKTeX/tex/latex/base/latexsym.sty" 1761900684 2853 45a98f589f86476fadff19a8edda5ea9 ""
+  "C:/Users/Ivander/AppData/Local/Programs/MiKTeX/tex/latex/base/omscmr.fd" 1761900684 2469 c75f72b1dc17277decdd842fa4a321a8 ""
   "C:/Users/Ivander/AppData/Local/Programs/MiKTeX/tex/latex/base/size11.clo" 1761900684 8464 f339f4d5391fbe0425b2d94c90e6819e ""
   "C:/Users/Ivander/AppData/Local/Programs/MiKTeX/tex/latex/base/ulasy.fd" 1761900684 2233 b5d3114ec3e0616e658a8e7b74e810f1 ""
   "C:/Users/Ivander/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty" 1738917170 52272 63d293bc0d496619edb57585740861a2 ""
@@ -78,10 +79,10 @@
   "C:/Users/Ivander/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1761901070 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/Ivander/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1761901070 7532 26d26e9d8f2ca784270d5da8ec7d102b ""
   "C:/Users/Ivander/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Ivander/Documents/Projects/LaTeX/CV/main.tex" 1784693442 8389 4ae532e817672c55245b96bbdd653644 ""
-  "main.aux" 1784693443 832 3c1cd1318e69a68ec3b68c2512a4953a "pdflatex"
-  "main.out" 1784693443 557 bac9f5a4e64ef9f664b24427fd5e667e "pdflatex"
-  "main.tex" 1784693442 8389 4ae532e817672c55245b96bbdd653644 ""
+  "c:/Users/Ivander/Documents/Projects/LaTeX/CV/main.tex" 1786830615 8043 c81d551832793cc487d9357ef32acbb5 ""
+  "main.aux" 1786830616 832 3c1cd1318e69a68ec3b68c2512a4953a "pdflatex"
+  "main.out" 1786830616 557 bac9f5a4e64ef9f664b24427fd5e667e "pdflatex"
+  "main.tex" 1786830615 8043 c81d551832793cc487d9357ef32acbb5 ""
   (generated)
   "main.aux"
   "main.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.8)  22 JUL 2026 11:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.8)  16 AUG 2026 04:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -299,11 +299,17 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 116
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 127.
+(Font)              <10.95> on input line 128.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 127.
+(Font)              <8> on input line 128.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 127.
+(Font)              <6> on input line 128.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 145.
+ (C:\Users\Ivander\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -325,17 +331,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BAC9F5A4E64EF9F664B24427FD5E667E;557.
  ) 
 Here is how much of TeX's memory you used:
- 10881 strings out of 467866
- 173346 string characters out of 5417358
- 624910 words of memory out of 5000000
- 39644 multiletter control sequences out of 15000+600000
+ 10901 strings out of 467866
+ 173722 string characters out of 5417358
+ 625910 words of memory out of 5000000
+ 39661 multiletter control sequences out of 15000+600000
  633313 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,395b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,355b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Ivander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 117871 bytes).
+Output written on main.pdf (1 page, 116535 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
